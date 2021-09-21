@@ -2,6 +2,7 @@ package jm.task.core.jdbc.dao;
 
 import jm.task.core.jdbc.model.User;
 import jm.task.core.jdbc.util.Util;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -47,7 +48,7 @@ public class UserDaoJDBCImpl implements UserDao {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-        System.out.println("User с именем – " + name+" "+ lastName + " добавлен в базу данных");
+        System.out.println("User с именем – " + name + " " + lastName + " добавлен в базу данных");
     }
 
     public void removeUserById(long id) {

@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="TaskJDBC" />
+        <module name="1.1.4" />
+        <module name="CoreTaskTemplate-master" />
       </profile>
     </annotationProcessing>
   </component>
